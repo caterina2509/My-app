@@ -1,16 +1,45 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Grocery List App 🛒
 
-Currently, two official plugins are available:
+Мой первый проект на *React + Vite*. Это простое и удобное приложение для создания списка покупок. Оно помогает ничего не забыть в магазине!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Функционал
+* Добавление: Можно вписать товар в поле и нажать "Add".
+* Вычеркивание: При клике на товар он отмечается как купленный (сквозь него проходит линия).
+* Удаление: Кнопка "Delete" полностью очищает весь список.
+* Валидация: Приложение не даст добавить пустую строку и покажет предупреждение.
 
-## React Compiler
+Технологии
+* React (Классовые компоненты)
+* Vite (Инструмент сборки)
+* JavaScript (ES6+)
+* *CSS3 (Стилизация и анимация вычеркивания)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Как запустить проект локально
 
-## Expanding the ESLint configuration
+1. Склонируй репозиторий:
+   ```bash
+   git clone [https://github.com/caterina2509/My-app.git](https://github.com/caterina2509/My-app.git)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   Grocery List App 🛒
+
+My first project built with *React* and *Vite*. This is a simple and intuitive application for managing your shopping list, ensuring you never miss an item while at the store.
+
+## ✨ Features
+* *Add Items:* Type a product into the input field and click "Add".
+* *Toggle Status:* Click on an item to mark it as purchased (strikethrough effect).
+* *Clear List:* Use the "Delete" button to clear the entire list at once.
+* *Validation:* Includes a simple alert to prevent adding empty items.
+
+## 🛠️ Tech Stack
+* *React.js* (Class Components)
+* *Vite* (Build Tool)
+* *JavaScript (ES6+)*
+* *CSS3* (Styling and "crossed" text effects)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/caterina2509/My-app.git](https://github.com/caterina2509/My-app.git)
